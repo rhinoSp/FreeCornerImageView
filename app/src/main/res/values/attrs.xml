@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 自定义FreeCornerImageView -->
+    <declare-styleable name="FreeCornerImageView">
+        <attr name="fcim_stroke_width" format="dimension" />
+        <attr name="fcim_stroke_color" format="color|integer" />
+        <attr name="fcim_center_background_color" format="color|integer" />
+        <attr name="fcim_corner_left_top" format="dimension" />
+        <attr name="fcim_corner_right_top" format="dimension" />
+        <attr name="fcim_corner_left_bottom" format="dimension" />
+        <attr name="fcim_corner_right_bottom" format="dimension" />
+    </declare-styleable>
+
+</resources>
+

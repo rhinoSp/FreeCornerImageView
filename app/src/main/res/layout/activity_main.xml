@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.rhino.freecornerimageview.view.FreeCornerImageView
+        android:id="@+id/FreeCornerImageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        app:fcim_stroke_width="4dp"
+        app:fcim_stroke_color="#D9000000"
+        app:fcim_corner_left_top="40dp"
+        app:fcim_corner_right_bottom="40dp"/>
+
+    <com.rhino.freecornerimageview.view.FreeCornerImageView
+        android:id="@+id/FreeCornerImageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        app:fcim_stroke_width="2dp"
+        app:fcim_stroke_color="#4B000000"
+        app:fcim_corner_left_top="40dp"
+        app:fcim_corner_left_bottom="40dp"
+        app:fcim_corner_right_top="40dp"
+        app:fcim_corner_right_bottom="40dp"
+        app:fcim_center_background_color="#00000000"/>
+
+    <com.rhino.freecornerimageview.view.FreeCornerImageView
+        android:id="@+id/FreeCornerImageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:fcim_stroke_width="2dp"
+        app:fcim_stroke_color="#4B000000"
+        app:fcim_corner_left_top="10dp"
+        app:fcim_corner_left_bottom="10dp"
+        app:fcim_corner_right_top="10dp"
+        app:fcim_corner_right_bottom="10dp"/>
+
+</LinearLayout>
