@@ -1,6 +1,9 @@
 # FreeCornerImageView
 The custom to set corner freely of ImageView.
 
+# Screenshot
+![](https://github.com/rhinoSp/FreeCornerImageView/blob/master/screenrecord/screenrecord.png)  
+
 # Question / Contact Me / Hire Me
 
 Please feel free to ping me at rhino_luo@163.com.
